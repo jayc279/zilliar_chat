@@ -115,7 +115,8 @@ else:
   )
   
   # 'wolfram-alpha', - this needs a license
-  tools = load_tools(['wikipedia', 'ddg-search', 'arxiv'], llm = llm)
+  # tools = load_tools(['wikipedia', 'ddg-search', 'arxiv'], llm = llm)
+  tools = load_tools(['wikipedia'], llm = llm)
 
   agent_kwargs = {
       "system_message": agent_msg,

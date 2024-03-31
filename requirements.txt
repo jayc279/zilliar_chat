@@ -4,3 +4,4 @@ langchain
 pydantic
 duckduckgo-search
 arxiv
+langchain-community
