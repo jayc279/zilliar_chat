@@ -2,3 +2,5 @@ streamlit>=1.26.0
 openai
 langchain
 pydantic
+duckduckgo-search
+arxiv
