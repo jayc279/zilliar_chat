@@ -4,8 +4,7 @@ import asyncio
 import os
 
 # import models - using gpt-3.5-turbo
-from langchain_openai import OpenAI
-from langchain_openai import ChatOpenAI
+from langchain_chat_models import ChatOpenAI
 
 # prompt template
 from langchain.prompts import PromptTemplate
